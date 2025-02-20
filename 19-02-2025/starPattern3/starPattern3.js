@@ -1,8 +1,10 @@
+ 
  let row = document.getElementById("number").addEventListener("input", function () {
   row = parseInt(this.value);
 });
 
 function printStars(row) {
+//  debugger;
   if (row <= 0) {
     return "Please enter a positive integer greater than 0.";
   }
@@ -11,16 +13,21 @@ function printStars(row) {
   for (let i=1; i <= row; i++) {
       let str = "";
 
-    for (let k = row - 1; k>0; k--) {
-      str += "&nbsp;&nbsp;" ;
+    for (let k = row - i; k > 0; k--) {
+      str += " " ;
       }
       
       for (let j = 1; j <= i; j++) {
-        str += "* ";
+        if(j==i ||i==row||j==1){
+              str += "* ";
+        }else{
+          str += "  ";
+        }
+        
       }
       
       
-      result += str + "<br>";
+      result += str + "\n";
       console.log(str);
     
   }
