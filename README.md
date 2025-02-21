@@ -24,7 +24,7 @@ For input 5, the output pattern will be:
 * *
 * * *
 * * * *
-* * * * *
-
+* * * * * 
+```
 You can Checkout Project on [Star Pattern](https://learn-javascript-azure.vercel.app/17-02-2025/starPattern/star.html)
 
