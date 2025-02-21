@@ -21,6 +21,7 @@ This project is a simple web application that allows users to generate star patt
 # Example output
 
 For input 5, the output pattern will be:
+
 ```
 *
 * *
@@ -28,6 +29,7 @@ For input 5, the output pattern will be:
 * * * *
 * * * * * 
 ```
+
 You can Checkout Project on [Star Pattern](https://learn-javascript-azure.vercel.app/17-02-2025/starPattern/star.html)
 
 # Date: 18 February 2025
@@ -50,6 +52,7 @@ This project is a simple Star Pattern Generator built using HTML, CSS, and JavaS
 # Example output
 
 For input 5, the output pattern will be:
+
 ```
 *
 * *
@@ -61,6 +64,7 @@ For input 5, the output pattern will be:
 * *
 * 
 ```
+
 You can Checkout Project on [Star Pattern](https://learn-javascript-azure.vercel.app/18-02-2025/starPattern2/star2.html)
 
 # Date: 19 February 2025
@@ -96,6 +100,7 @@ This project is a simple web application that allows users to generate a hollow 
 # Example output
 
 For input 5, the output pattern will be:
+
 ```
     * 
    * * 
@@ -103,5 +108,6 @@ For input 5, the output pattern will be:
  *     * 
 * * * * * 
 ```
+
 You can Checkout Project on [Star Pattern](https://learn-javascript-azure.vercel.app/19-02-2025/starPattern3/starPattern3.html)
 
