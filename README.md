@@ -79,11 +79,9 @@ This project is a simple web application that allows users to generate a hollow 
 
 1.Users can enter a number to generate a hollow pyramid pattern.
 
-2.The pattern is displayed in a structured format using the <pre> tag.
+2.A clear button allows users to reset the input and output.
 
-3.A clear button allows users to reset the input and output.
-
-4.The UI is styled using CSS to provide a smooth and interactive user experience.
+3.The UI is styled using CSS to provide a smooth and interactive user experience.
 
 # Code Workflow
 
@@ -91,9 +89,7 @@ This project is a simple web application that allows users to generate a hollow 
 
 2.Pattern Generation: printStars(row) checks input validity, loops to form the hollow pyramid, and adds spaces for formatting.
 
-3.Displaying Output: The generated pattern is shown inside the <pre> tag.
-
-4.Clear Function: Clicking Clear resets input and output fields.
+3.Clear Function: Clicking Clear resets input and output fields.
 
 
 
