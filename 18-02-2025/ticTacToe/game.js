@@ -3,7 +3,7 @@ let btnX =document.getElementById("one");
 let btnO = document.getElementById("two") ;
 
 
-let currentPlayer = "X";
+
 
 let index = document.getElementById("boxNumber").addEventListener("input", function () {
     index = this.value;

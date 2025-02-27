@@ -1,3 +1,5 @@
+debugger
+
 let boxes = ["", "", "", "", "", "", "", ""];
 let btnX =document.getElementById("one");
 let btnO = document.getElementById("two") ;
