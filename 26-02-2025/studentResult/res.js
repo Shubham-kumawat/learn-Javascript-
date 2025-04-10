@@ -33,7 +33,7 @@ function getSocialMarks(){
 function getComputerMarks(){
     return parseInt(ComputerField.value) || 0
 }
-
+ 
 
 function calculateTotalMarks(){
     totalMarks = getHindiMarks() + getEnglishMarks() + getMathsMarks() + getSocialMarks() + getComputerMarks()

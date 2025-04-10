@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="todo.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="main">
+        <div class="navbar">
+  <h3>My ToDo's</h3>
+  <div class="states">
+    <button class="filter-btn" data-filter="all">All (<span id="all-count">0</span>)</button>
+    <button class="filter-btn" data-filter="new">New (<span id="new-count">0</span>)</button>
+    <button class="filter-btn" data-filter="complete">Complete (<span id="complete-count">0</span>)</button>
+    <button class="filter-btn" data-filter="removed">Removed (<span id="removed-count">0</span>)</button>
+  </div>
+</div>
+        <div class="details">
+          <input type="text" placeholder="Add Your Task Here" />
+          <button id="add">Add</button>
+            <ul>
+                
+            </ul>
+        </div>
+      </div>
+    </div>
+    <script src="todo.js"></script>
+  </body>
+</html>

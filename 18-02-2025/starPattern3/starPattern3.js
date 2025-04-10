@@ -18,11 +18,11 @@ function printStars(row) {
       }
       
       for (let j = 1; j <= i; j++) {
-        if(j==i ||i==row||j==1){
+        // if(j==i ||i==row||j==1){
               str += "* ";
-        }else{
-          str += "  ";
-        }
+        // }else{
+        //   str += "  ";
+        // }
         
       }
       
